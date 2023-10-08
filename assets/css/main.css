@@ -20,9 +20,9 @@
 }
 
 .footer-style {
-    background-color: #1e465f;
+    background: linear-gradient(to right,#1b3745,#1d5271);
 
-     & .nav-item {
+    & ul > li > a {
         color: aliceblue;
-     }
+    }
 }
