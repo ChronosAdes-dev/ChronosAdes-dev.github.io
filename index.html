@@ -56,7 +56,7 @@
     </header>
     
     <!-- MAIN INFO -->
-    <div class="container-main">
+    <section class="container-main">
       <img src="assets/img/ba1.jpg" alt="" width="100%" class="img-style" />
       <div class="text-in-front">
         <div class="col-md-6 offset-md-5">
@@ -78,16 +78,52 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
+    <!-- CONOCEDORES  -->
     <section id="losConocedores" class="py-3" >
       <div class="d-flex flex-column align-items-center">
         <span style="font-weight: 300;">CONOCE A LOS</span>
         <span style="font-size: xx-large;">ORADORES</span>
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-3">
+      <div class="card-group w-75 mx-auto gap-3 justify-content-center cards-container">
+        <div class="card">
+          <img src="assets/img/steve.jpg" class="card-img-top" alt="Steve Jobs">
+          <div class="card-body">
+            <div style="display: flex; gap: 5px;">
+              <h6 style="background-color: #fec106; border-radius: 3px;padding: 5px;">JavaScript</h6>
+              <h6 style="background-color: #17a2b7; border-radius: 3px;padding: 5px; color: white">React</h6>
+            </div>
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti facilis quod eligendi repudiandae veritatis iusto, asperiores atque pariatur molestiae. Totam quos perferendis harum eum nam dolores! Odit nisi labore saepe..</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/bill.jpg" class="card-img-top" alt="Bill Gates">
+          <div class="card-body">
+            <div style="display: flex; gap: 5px;">
+              <h6 style="background-color: #fec106; border-radius: 3px;padding: 5px;">JavaScript</h6>
+              <h6 style="background-color: #17a2b7; border-radius: 3px;padding: 5px; color: white">React</h6>
+            </div>
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione esse neque deleniti odit debitis, ex quisquam itaque repellat numquam blanditiis ipsa temporibus obcaecati a, placeat architecto libero laudantium fuga dignissimos!.</p>
+          </div>
+        </div>
+        <div class="card h-100">
+          <img src="assets/img/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+          <div class="card-body">
+            <div style="display: flex; gap: 5px;">
+              <h6 style="background-color: #6c757c; border-radius: 3px;padding: 5px; color: white;">Negocios</h6>
+              <h6 style="background-color: #db3544; border-radius: 3px;padding: 5px; color: white">Startups</h6>
+            </div>
+            <h5 class="card-title">Ada Lovelace</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio nostrum officiis nesciunt magni, sed molestias libero natus id aliquam quasi! Temporibus nemo in optio, tempore commodi dolores excepturi id esse?</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row row-cols-1 row-cols-md-3 g-3 w-75">
         <div class="col">
-          <div class="card">
+          <div class="card h-100">
             <img src="assets/img/steve.jpg" class="card-img-top" alt="Steve Jobs">
             <div class="card-body">
               <div style="display: flex; gap: 5px;">
@@ -125,9 +161,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
-    <section id="lugarFecha">
+
+    <!-- LUGAR Y FECHA -->
+    <section id="lugarFecha" class="py-3">
       <div class="card-group">
         <div class="card">
           <img src="assets/img/honolulu.jpg" alt="Cancun, Mexico" width="100%" height="100%">
@@ -148,8 +186,9 @@
       </div>
     </section>
 
-    <section id="convertirOrador">
-      <div >
+    <!-- FINAL PARTE -->
+    <section id="convertirOrador" class="py-4">
+      <div class="container-fluid">
         <div style="text-align: center;">
           <h6 style="font-weight: 300;">CONVÍERTE EN UN</h6>
           <h2 style="font-weight: 500">ORADOR</h2>
@@ -168,7 +207,8 @@
           </div>
         </div>
         <div class="row mb-3">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" 
+            placeholder="Sobre qué quieres hablar?" style="resize: none;"></textarea>
           <div class="form-text" id="basic-addon4">Recuerda incluir un titulo para tu charla.</div>
         </div>
         <div class="d-grid gap-2 mb-3">
@@ -178,7 +218,7 @@
     </section>
 
     <footer class="footer footer-style">
-      <div class="container-fluid">
+      <div class="container">
         <ul class="nav nav-justified" style="align-items: center;">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#"
