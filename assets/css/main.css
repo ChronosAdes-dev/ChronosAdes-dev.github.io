@@ -22,7 +22,7 @@
 .footer-style {
     background: linear-gradient(to right,#1b3745,#1d5271);
 
-    & ul > li > a {
+    & ul  li  a {
         color: aliceblue;
     }
 }
