@@ -1,0 +1,28 @@
+.container-main {
+    position: relative;
+    display: flex;
+    text-align: end;
+    align-items: center;
+    justify-content: end;
+    
+
+    & .img-style {
+        filter: brightness(50%);
+    }
+
+    & .text-in-front {
+        position: absolute;
+        font-weight: bold;
+        color: antiquewhite;
+        width: 100%;
+ 
+    }
+}
+
+.footer-style {
+    background-color: #1e465f;
+
+     & .nav-item {
+        color: aliceblue;
+     }
+}
