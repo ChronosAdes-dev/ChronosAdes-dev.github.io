@@ -18,81 +18,48 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="assets/img/codoacodo.png" width="30%" alt="Codo a Codo" />
-          <small>Conf Bs As</small>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav" style="text-align: center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                La Conferencia
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#losConocedores">Los Oradores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#lugarFecha">El lugar y la Fecha</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#convertirOrador">Conviértete en Orador</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="color: green" href="#"
-                >Comprar tickets</a
-              >
-            </li>
-          </ul>
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="assets/img/codoacodo.png" width="100" alt="Codo a Codo" />
+            <small>Conf Bs As</small>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav justify-content-end" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  La Conferencia
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#losConocedores">Los Oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#lugarFecha">El lugar y la Fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#convertirOrador">Conviértete en Orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#"
+                  >Comprar tickets</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-
-    <!-- <nav class="navbar bg-body-tertiary" data-bs-theme="dark"> 
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/codoacodo.png" width="30%" alt="Codo a Codo" />
-                <small>Conf Bs As</small>
-              </a>
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >La Conferencia</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Los Oradores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">El lugar y la Fecha</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Conviértete en Orador</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Comprar tickets</a>
-            </li>
-          </ul>
-        </div>
-      </nav> -->
-
+    </header>
+    
+    <!-- MAIN INFO -->
     <div class="container-main">
       <img src="assets/img/ba1.jpg" alt="" width="100%" class="img-style" />
       <div class="text-in-front">
-        <div class="col-md-11">
+        <div class="col-md-6 offset-md-5">
           <h1>Conf Bs As</h1>
           <p class="text-wrap">
             Bs As llega por primera vez a Argentina. Un evento para compartir
@@ -113,10 +80,10 @@
       </div>
     </div>
 
-    <section id="losConocedores" >
-      <div style="text-align: center;">
-        <h6 style="font-weight: 300;">CONOCE A LOS</h6>
-        <h2 style="font-weight: 500">ORADORES</h2>
+    <section id="losConocedores" class="py-3" >
+      <div class="d-flex flex-column align-items-center">
+        <span style="font-weight: 300;">CONOCE A LOS</span>
+        <span style="font-size: xx-large;">ORADORES</span>
       </div>
       <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class="col">
