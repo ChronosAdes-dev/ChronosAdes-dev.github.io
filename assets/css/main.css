@@ -46,6 +46,30 @@ html, body {
     
 }
 
+.cardRadius  .card {
+    border-radius: 0%;
+    text-align: center;
+
+    h6 {
+        font-size: small;
+    }
+}
+
+.cardHover{
+    scale: 1.09;
+    z-index: 1;
+    transform: translateY(-9px);
+}
+.amarillo{
+    background-color: #ffc107 !important;
+}
+.azulClaro{
+    background-color: #0dcaf0 !important;
+}
+.azulFuerte{
+    background-color: #0d6efd !important; 
+}
+
 @keyframes animation-fall {
     0% {
         top: 10%;
@@ -81,35 +105,35 @@ html, body {
 .animations-moves:nth-of-type(3) {
     left: 60%;
     animation-delay: 6s, 0.5s;
-    -webkit-animation-delay: 6s, 0.5s;
+    -webkit-animation-delay: 3s, 0.5s;
 }
 
 .animations-moves:nth-of-type(4) {
     left: 80%;
-    animation-delay: 4s, 2s;
-    -webkit-animation-delay: 3s, 2s;
+    animation-delay: 8s, 2s;
+    -webkit-animation-delay: 8s, 2s;
 }
 
 .animations-moves:nth-of-type(5){
     left: 10%;
-    -webkit-animation-delay: 3s, 2s;
-    animation-delay: 4s, 2s;
+    -webkit-animation-delay: 7s, 2s;
+    animation-delay: 7s, 2s;
 }
 
 .animations-moves:nth-of-type(6){
     left: 50%;
-    -webkit-animation-delay: 3s, 2s;
-    animation-delay: 4s, 2s;
+    -webkit-animation-delay: 5s, 2s;
+    animation-delay: 5s, 2s;
 }
 
 .animations-moves:nth-of-type(7){
     left: 70%;
     -webkit-animation-delay: 3s, 2s;
-    animation-delay: 4s, 2s;
+    animation-delay: 3s, 2s;
 }
 
 .animations-moves:nth-of-type(6){
     left: 90%;
-    -webkit-animation-delay: 3s, 2s;
-    animation-delay: 4s, 2s;
+    -webkit-animation-delay: 1s, 2s;
+    animation-delay: 1s, 2s;
 }
