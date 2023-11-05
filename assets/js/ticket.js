@@ -60,12 +60,13 @@ function resumen(e) {
    let result = validate(e);
    if(result){
     let valor = document.getElementById('categoria').value;
+    let total = document.getElementById('total');
         if(valor == "Estudiante"){
-            document.getElementById('total').value = "Total a Pagar: $" + 200 - (200 * 0.80);
+            total.value = "Total a Pagar: $" + Number(200 - (200 * 0.80));
         }else if(valor == "Trainee"){
-            document.getElementById('total').value = "Total a Pagar: $" + 200 - (200 * 0.50);
+            total.value = "Total a Pagar: $" + Number(200 - (200 * 0.50));
         }else{
-            document.getElementById('total').value = "Total a Pagar: $" + 200 - (200 * 0.15);
+            total.value = "Total a Pagar: $" + Number(200 - (200 * 0.15));
         }
    }
 }
