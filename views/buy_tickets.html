@@ -181,7 +181,7 @@
             </div>
             <div class="col-md-6">
               <label class="form-label" for="cantidad">Cantidad</label>
-              <input class="form-control fields" id="cantidad" placeholder="cantidad" required>
+              <input onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" autocomplete="off" class="form-control fields" id="cantidad" placeholder="cantidad" required>
               <div class="invalid-feedback">
                 Please provide a valid Quantity.
               </div>  

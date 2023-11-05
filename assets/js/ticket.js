@@ -38,7 +38,7 @@ function validate(e) {
     let fields = document.getElementsByClassName('fields');
     let form = document.getElementById('formFinal');
     for (let i = 0; i < fields.length; i++) {
-        if (fields[i].value.trim().length == 0) {
+        if (fields[i].value.trim().length == 0 || (fields[i].id == "cantidad" && fields[i].value == 0)) {
             Swal.fire({
                 icon: 'warning',
                 position: 'top-end',
@@ -60,13 +60,15 @@ function resumen(e) {
    let result = validate(e);
    if(result){
     let valor = document.getElementById('categoria').value;
+    let quantity = document.getElementById('cantidad').value;
+    let result = 200 * quantity;
     let total = document.getElementById('total');
         if(valor == "Estudiante"){
-            total.value = "Total a Pagar: $" + Number(200 - (200 * 0.80));
+            total.value = "Total a Pagar: $" + Number(result - (result * 0.80));
         }else if(valor == "Trainee"){
-            total.value = "Total a Pagar: $" + Number(200 - (200 * 0.50));
+            total.value = "Total a Pagar: $" + Number(result - (result * 0.50));
         }else{
-            total.value = "Total a Pagar: $" + Number(200 - (200 * 0.15));
+            total.value = "Total a Pagar: $" + Number(result - (result * 0.15));
         }
    }
 }
