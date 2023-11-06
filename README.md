@@ -1,0 +1,14 @@
+### TP INTEGRADOR BD
+
+#### IMAGE ABOUT SQL 
+![IMAGE OF SQL](TP%20INTEGRADOR%20BD/structure.png)   
+
+#### IMAGE ABOUT STRUCTURE
+![IMAGE OF STRUCTURE](TP%20INTEGRADOR%20BD/code%20sql.png)
+
+#### IMAGE ABOUT REGISTERS
+![IMAGE OF REGISTERS](TP%20INTEGRADOR%20BD/execute.png)
+
+#### BACK UP OF integrador_cac
+
+[integrador_cac](TP%20INTEGRADOR%20BD/integrador_cac.sql)
